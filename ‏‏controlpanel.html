@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>robot direction</h2>
+<p>This is a robot control panel.<p>
+<p>Choose and submit to guide the robot and these moves will be recorded in the database</p>
+
+<form action="http://localhost/robot/getdir.php" method= "get">
+<label for="forward"class="radio-inline"> <input type="radio" name="dirc" value="f" id="forward"/>forward</label>
+<label for="right"  class="radio-inline"> <input type="radio" name="dirc" value="r" id="right"/>right</label>
+<label for="stop"   class="radio-inline"> <input type="radio" name="dirc" value="s" id="stop"/>stop</label>
+<label for="left"   class="radio-inline"> <input type="radio" name="dirc" value="l" id="left"/>left</label>
+<label for="Backword" class="radio-inline"> <input type="radio"name="dirc" value="b" id="Backword"/>Backword</label>
+
+<br><br>
+<input class="btn btn-primary" type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
+
