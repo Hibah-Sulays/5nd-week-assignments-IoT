@@ -1,7 +1,8 @@
 
 <?php
   $dirc = $_GET["dirc"];
-   
+  echo $dirc ;
+  echo "<br><br>";
   
   
   $servername = "localhost";
